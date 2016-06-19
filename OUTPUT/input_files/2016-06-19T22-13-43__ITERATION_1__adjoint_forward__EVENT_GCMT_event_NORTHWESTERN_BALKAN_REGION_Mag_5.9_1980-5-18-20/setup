@@ -1,0 +1,22 @@
+MODEL =====================================================================================================================================
+80.000000                                   ! theta_min (colatitude) in degrees
+100.000000                                  ! theta_max (colatitude) in degrees
+-10.000000                                  ! phi_min (longitude) in degrees
+10.000000                                   ! phi_max (longitude) in degrees
+5900000.000000                              ! z_min (radius) in m
+6371000.000000                              ! z_max (radius) in m
+0                                           ! is_diss
+1                                           ! model_type
+COMPUTATIONAL SETUP (PARALLELISATION) =====================================================================================================
+24                                          ! nx_global, (nx_global+px = global # elements in theta direction)
+24                                          ! ny_global, (ny_global+py = global # elements in phi direction)
+15                                          ! nz_global, (nz_global+pz = global # of elements in r direction)
+4                                           ! lpd, LAGRANGE polynomial degree
+2                                           ! px, processors in theta direction
+2                                           ! py, processors in phi direction
+1                                           ! pz, processors in r direction
+ADJOINT PARAMETERS ========================================================================================================================
+1                                           ! adjoint_flag (0=normal simulation, 1=adjoint forward, 2=adjoint reverse)
+10                                          ! samp_ad, sampling rate of forward field
+../OUTPUT/CHANGE_ME/ADJOINT/GCMT_event_NORTHWESTERN_BALKAN_REGION_Mag_5.9_1980-5-18-20
+

@@ -1,0 +1,20 @@
+SIMULATION PARAMETERS ==================================================================================
+2000                                        ! nt, number of time steps
+0.300000                                    ! dt in sec, time increment
+SOURCE =================================================================================================
+91.531990                                   ! xxs, theta-coord. center of source in degrees
+-2.673997                                   ! yys, phi-coord. center of source in degrees
+15000.000000                                ! zzs, source depth in (m)
+10                                          ! srctype, 1:f_x, 2:f_y, 3:f_z, 10:M_ij
+3.185248e+16                                ! M_theta_theta
+-9.142479e+15                               ! M_phi_phi
+-2.271000e+16                               ! M_r_r
+3.271401e+15                                ! M_theta_phi
+1.166636e+15                                ! M_theta_r
+-1.099530e+15                               ! M_phi_r
+OUTPUT DIRECTORY ======================================================================================
+../OUTPUT/CHANGE_ME/GCMT_event_NORTHERN_ITALY_Mag_4.9_2000-8-21-17
+OUTPUT FLAGS ==========================================================================================
+10000                                       ! ssamp, snapshot sampling
+0                                           ! output_displacement, output displacement field (1=yes,0=no)
+

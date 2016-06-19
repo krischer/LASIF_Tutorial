@@ -1,0 +1,20 @@
+SIMULATION PARAMETERS ==================================================================================
+2000                                        ! nt, number of time steps
+0.300000                                    ! dt in sec, time increment
+SOURCE =================================================================================================
+84.815407                                   ! xxs, theta-coord. center of source in degrees
+3.837608                                    ! yys, phi-coord. center of source in degrees
+10000.000000                                ! zzs, source depth in (m)
+10                                          ! srctype, 1:f_x, 2:f_y, 3:f_z, 10:M_ij
+-5.175529e+17                               ! M_theta_theta
+7.039530e+17                                ! M_phi_phi
+-1.864001e+17                               ! M_r_r
+2.836836e+17                                ! M_theta_phi
+5.022917e+17                                ! M_theta_r
+-2.716769e+17                               ! M_phi_r
+OUTPUT DIRECTORY ======================================================================================
+../OUTPUT/CHANGE_ME/GCMT_event_NORTHWESTERN_BALKAN_REGION_Mag_5.9_1980-5-18-20
+OUTPUT FLAGS ==========================================================================================
+10000                                       ! ssamp, snapshot sampling
+0                                           ! output_displacement, output displacement field (1=yes,0=no)
+
