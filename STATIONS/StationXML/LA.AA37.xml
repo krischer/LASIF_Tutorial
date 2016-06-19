@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<FDSNStationXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd">
+ <Source>LASIF</Source>
+ <Sender>LASIF</Sender>
+ <Module>LASIF</Module>
+ <ModuleURI>http://krischer.github.io/LASIF</ModuleURI>
+ <Created>2014-04-24T11:45:20</Created>
+ <Network code="LA" startDate="1970-01-01T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open">
+  <Description>LASIF Dummy Network</Description>
+  <TotalNumberStations>51</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station code="AA37" startDate="1970-01-01T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open">
+   <Latitude>39.9418567957</Latitude>
+   <Longitude>22.6153264114</Longitude>
+   <Elevation>0.0</Elevation>
+   <Site>
+     <Name>LASIF Dummy station AA37</Name>
+   </Site>
+   <CreationDate>2013-09-02T00:00:00</CreationDate>
+   <TotalNumberChannels>3</TotalNumberChannels>
+   <SelectedNumberChannels>3</SelectedNumberChannels>
+   <Channel locationCode="  " startDate="1970-01-01T00:00:00" restrictedStatus="open" endDate="2599-12-31T23:59:59" code="BHE">
+    <Latitude>39.9418567957</Latitude>
+    <Longitude>22.6153264114</Longitude>
+    <Elevation>0.0</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>90.0</Azimuth>
+    <Dip>0.0</Dip>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>40.0</SampleRate>
+    <ClockDrift>2.5E-4</ClockDrift>
+    <CalibrationUnits>
+     <Name>V</Name>
+     <Description>emf in volts</Description>
+    </CalibrationUnits>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.0</Value>
+      <Frequency>0.2</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>velocity in meters per second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>digital counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <StageGain>
+       <Value>1.0</Value>
+       <Frequency>0.2</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel locationCode="  " startDate="1970-01-01T00:00:00" restrictedStatus="open" endDate="2599-12-31T23:59:59" code="BHN">
+    <Latitude>39.9418567957</Latitude>
+    <Longitude>22.6153264114</Longitude>
+    <Elevation>0.0</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>0.0</Dip>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>40.0</SampleRate>
+    <ClockDrift>2.5E-4</ClockDrift>
+    <CalibrationUnits>
+     <Name>V</Name>
+     <Description>emf in volts</Description>
+    </CalibrationUnits>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.0</Value>
+      <Frequency>0.2</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>velocity in meters per second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>digital counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <StageGain>
+       <Value>1.0</Value>
+       <Frequency>0.2</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel locationCode="  " startDate="1970-01-01T00:00:00" restrictedStatus="open" endDate="2599-12-31T23:59:59" code="BHZ">
+    <Latitude>39.9418567957</Latitude>
+    <Longitude>22.6153264114</Longitude>
+    <Elevation>0.0</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>40.0</SampleRate>
+    <ClockDrift>2.5E-4</ClockDrift>
+    <CalibrationUnits>
+     <Name>V</Name>
+     <Description>emf in volts</Description>
+    </CalibrationUnits>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.0</Value>
+      <Frequency>0.2</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>velocity in meters per second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>digital counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <StageGain>
+       <Value>1.0</Value>
+       <Frequency>0.2</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>
