@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MisfitWindow>
+  <Event>GCMT_event_NORTHERN_ITALY_Mag_4.9_2000-8-21-17</Event>
+  <ChannelID>LA.AA14..Z</ChannelID>
+  <SyntheticsTag>1</SyntheticsTag>
+  <Window>
+    <Starttime>2000-08-21T17:16:56.900000Z</Starttime>
+    <Endtime>2000-08-21T17:22:18.800000Z</Endtime>
+    <Weight>1.0</Weight>
+    <Taper>cosine</Taper>
+    <TaperPercentage>0.05</TaperPercentage>
+  </Window>
+</MisfitWindow>

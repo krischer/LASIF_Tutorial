@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MisfitWindow>
+  <Event>GCMT_event_NORTHWESTERN_BALKAN_REGION_Mag_5.9_1980-5-18-20</Event>
+  <ChannelID>LA.AA27..N</ChannelID>
+  <SyntheticsTag>1</SyntheticsTag>
+  <Window>
+    <Starttime>1980-05-18T20:03:46.800000Z</Starttime>
+    <Endtime>1980-05-18T20:05:48.300000Z</Endtime>
+    <Weight>1.0</Weight>
+    <Taper>cosine</Taper>
+    <TaperPercentage>0.05</TaperPercentage>
+  </Window>
+</MisfitWindow>
